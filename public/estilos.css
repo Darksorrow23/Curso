@@ -1,0 +1,463 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+* {
+    
+   
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Ubuntu", serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.lista {
+    justify-content: end;
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    background-color:#052639;
+    list-style: none;
+    text-decoration: none;
+}
+
+ol {
+    background-color: #052639;
+    padding: 20px;
+}
+
+
+.fondo1 {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px;
+}
+
+.cont_video{
+
+    display: flex;
+    width: 95%;
+    margin-top: 100px;
+    margin-left: 30px;
+
+
+
+}
+.video_rest{
+
+    display: flex;
+    justify-content: end;
+    border: solid;
+    border-color: black;
+    width: 40%;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: black;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.video{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.titulo_1 {
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 30px;
+    background-color: #052639;
+    padding-top: 80px;
+}
+
+
+.parrafo_1 {
+    width: 88%;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: #052639;
+    padding-bottom: 70px;
+}
+
+.quienes_somos {
+    background-color: #052639;
+    border-radius: 0px 5px 5px 0px;
+   
+}
+
+.Recetas {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 40px;
+    color: #052639;
+}
+
+
+.cont_tarjeta {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+  }
+  
+  .tarjeta {
+    width: 100%;
+    max-width: 300px;
+    background-color: #052639;
+    border-radius: 8px;
+    border: solid;
+    border-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tarjeta_img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+  }
+  
+  .tarjeta_cur{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color:#052639;
+
+  }
+  
+  .titulo_tarjeta {
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #052639;
+    align-self: center;
+    margin-top: 5px;
+  }
+
+  
+  .cont_tarjeta .tarjeta {
+    flex: 1;
+  }
+  
+  .img_restaurante{
+
+        display: flex;
+        width: 50%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+  }
+  
+.img_r{
+
+    max-width: 100%;
+    max-height: 100%
+
+}
+
+
+.titulo_sede{
+
+    display: flex;
+    color:#052639 ;
+    margin: 60px;
+    justify-self: center;
+    font-size: 30px;
+
+
+}
+
+
+
+.mapa{
+
+    display: flex;
+    width: 70%;
+    justify-self: center;
+    border: solid;
+    border-radius: 5px;
+    border-color: #052639;
+ 
+}
+
+.mapa_img{
+
+    max-width: 100%;
+    max-height: 100%;
+
+
+}
+
+.txt_mapa{
+
+    width: 90%;
+    background-color: #052639;
+    padding: 60px;
+    font-size: 17px;
+    
+
+
+
+}
+
+.cont_elegirnos{
+
+        display:flex ;
+        width: 100%;
+        margin-top: 100px;
+
+}
+
+.img_chef{
+
+    max-width: 50%;
+    max-height: 50% ;
+
+
+}
+
+.cont_titulo_parrafo_ele{
+
+    background-color: #052639;
+    width: 100%;
+    padding: 30px;
+    padding-top: 150px;
+
+}
+
+.elegirnos_titulo{
+
+    margin-bottom: 40px;
+
+
+}
+
+
+.Sube{
+
+    color: #052639;
+    justify-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.cont_sube{
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('img/comida.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.form-container {
+    background: rgba(255, 255, 255, 0.2); 
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 370px;
+    height: 500px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] 
+textarea{
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #052639;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #03141e;
+}
+
+footer{
+
+    background-color: #052639;
+    color:white;
+    padding: 50px;
+
+}
+
+.cont_footer{
+
+    display: flex;
+    justify-self: center;
+
+
+
+}
+
+.ter{
+
+    margin-top: 10px;
+    padding: 10px;
+
+
+
+}
+
+
+@media (max-width: 768px) {
+    .cont_video {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .video_rest {
+        width: 100%;
+        margin-left: 0;
+        border-radius: 5px;
+    }
+
+    .titulo_1 {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .parrafo_1 {
+        margin-left: 10px;
+        width: 95%;
+    }
+
+    .cont_tarjeta {
+        flex-direction: column;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tarjeta {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .img_restaurante {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .titulo_sede {
+        font-size: 24px;
+        margin: 20px;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+    .txt_mapa {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .cont_elegirnos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_chef {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .form-container {
+        width: 90%;
+        height: auto;
+        padding: 30px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .titulo_1 {
+        font-size: 20px;
+    }
+
+    .parrafo_1 {
+        font-size: 14px;
+    }
+
+    .cont_video {
+        margin-left: 0;
+    }
+
+    .tarjeta {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        width: 95%;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mapa {
+        height: 300px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .mapa {
+        height: 250px;
+    }
+}
